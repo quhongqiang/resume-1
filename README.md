@@ -1,7 +1,5 @@
 ### 在线预览
 [https://quhongqiang.com/resume/dist/](https://quhongqiang.com/resume/dist/)
-## ~
-不知不觉工作好多年了。其实最不愿意更新的就是这个项目了。因为更新这个项目就说明要劳民伤财的去讨工作。但是很多时候也是没办法哟。所以这不就来更新一波了。
 ## 简介
 个人简历模板，fork于[https://github.com/eternityspring/eternityspring.github.io](https://github.com/eternityspring/eternityspring.github.io)
 ### 初始化项目
