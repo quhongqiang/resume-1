@@ -9,6 +9,9 @@
   },
   "dependencies": {
     "lodash": "^4.17.15",
+    "lodash.defaultsdeep": "^4.6.1",
+    "lodash.mergewith": "^4.6.2",
+    "mem": "^5.1.1",
     "vue": "^2.5.16",
     "vue-router": "^3.0.1"
   },
