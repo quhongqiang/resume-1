@@ -312,7 +312,6 @@
 
 <script>
   import data from '../../public/resume.json'
-  
   export default {
     name: 'front',
     data() {
