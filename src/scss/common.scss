@@ -1,0 +1,53 @@
+html,body,header,section,div,address,p{
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+}
+html{
+  font-size: 14px;
+  min-height: 100%;
+}
+body{
+  font-size:1rem;
+  font-family: 'microsoft yahei','Helvetica Neue',Helvetica,Arial,sans-serif;
+  background: $bg1;
+  color: $color1;
+}
+h2{
+  font-size: 4rem;
+  font-weight: 200;
+  margin: 0 0 1rem;
+}
+.img-responsive{
+  max-width:100%;
+  height:auto;
+  display: block;
+}
+.text-center{
+  text-align: center;
+}
+.text-light{
+  color: $light;
+}
+.hide{
+  display: none;
+}
+.progress{
+  position: relative;
+  background: $border;
+  height: 5px;
+  .progress-bar{
+    height:100%;
+    background: $light;
+  }
+}
+
+/* loading */
+body {
+  background: $bg1;
+}
+.loading {
+  position: fixed;
+  top: 45%;
+  left: 50%;
+}
