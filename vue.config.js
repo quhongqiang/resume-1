@@ -30,8 +30,10 @@ const devServerOption = {
 module.exports = {
     // 1. 项目根路径  production -> 开发  production-sub-path -> 子路径
     // publicPath: process.env.NODE_ENV === 'production' ? '/production-sub-path/' : '/',
+    baseUrl: process.env.NODE_ENV === 'production' ? '../dist/' : '/',
     // 2.打包输出路径：文件夹名  Default: 'dist'
     outputDir: 'dist',
+    productionSourceMap: false,
     // 3. 配置代理、端口等配置操作
     devServer: devServerOption,
     // 4. 路径别名配置  参考网址[ https://www.jianshu.com/p/e4716e5bc8bb ]
