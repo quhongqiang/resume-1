@@ -244,10 +244,11 @@
                 <h3 class="text-light">{{usually.name}}</h3>
                 <p>{{usually.description}}</p>
               </a>
-              <div v-if="!usually.link" class="item" :title="usually.link">
+              <div v-if="!usually.link" :title="usually.link">
                 <i class="fa fa-github"></i>
                 <h3 class="text-light">{{usually.name}}</h3>
                 <p>{{usually.description}}</p>
+                <img src="../../public/img/logo-master.png" alt="公众号" class="img-responsive">
               </div>
             </div>
           </div>
