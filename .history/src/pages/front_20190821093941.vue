@@ -52,7 +52,7 @@
                 <div class="col-md-6 col-lg-3 flex">
                   <a class="item wow inShow" data-wow-delay="0.55s">
                     <h4>经验</h4>
-                    <div class="info">3年</div>
+                    <div class="info">{{userInfo.exp[0]+(calcDate(userInfo.workSince))+userInfo.exp[1]+calcDate(userInfo.workSince)+userInfo.exp[2]}}</div>
                   </a>
                 </div>
               </div>

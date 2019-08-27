@@ -74,8 +74,7 @@
             "微信公众号的开发。",
             "参与了公司后台管理系统的开发，配合其他的小伙伴完成工作。",
             "完成子公司和合作商提出的多种活动页面。",
-            "利用工作之余探索并学习了前端框架 react。",
-            "了解node.js"
+            "利用工作之余探索并学习了前端框架 react。"
           ]
         }
       ],
@@ -83,7 +82,7 @@
         {
           "title":"技术栈：",
           "content":[
-            "node.js","Vue","scss","bootstrap","webpack","less"
+            "Vue","scss","bootstrap","webpack","less"
           ]
         }
       ]
@@ -138,31 +137,6 @@
           "title":"技术栈：",
           "content":[
             "react","react-native","webpack","moment","lodash"
-          ]
-        }
-      ]
-    },
-    {
-      "time":"2018.09-至今",
-      "title":"其它项目",
-      "intro":"参与的其它项目开发，迭代维护",
-      "description":"以公司的业务为基础，向外延伸。参与完成的项目：悦途新系统、管理平台系统、企业接待平台、其它业务功能模块，公司推广活动页，参与开发合作公司的一些项目：铁科院的ERP管理系统，S5旅游路线项目等等。",
-      "tips":[
-        {
-          "title":"实现的主要功能：",
-          "content":[
-            "供应商管理",
-            "会员管理、经营数据",
-            "统计报表",
-            "配置权限等"
-          ]
-        }
-      ],
-      "technology":[
-        {
-          "title":"技术栈：",
-          "content":[
-            "react","less","webpack","echarts","Ant Design","dva"
           ]
         }
       ]
@@ -262,20 +236,6 @@
           "title":"技术栈：",
           "content":[
             "Vue","scss","webpack"
-          ]
-        }
-      ]
-    },
-    {
-      "time":"2017.01-2017.04",
-      "title":"嘟嘟生活官网",
-      "intro":"一个展示公司的产品",
-      "description":"全面概述了公司的发展历程，公司重要人物的介绍，与其它公司合作的象征，公司的发展旅程以及联系公司的方法。",
-      "technology":[
-        {
-          "title":"技术栈：",
-          "content":[
-            "Vue","less","webpack","bootstrap"
           ]
         }
       ]
