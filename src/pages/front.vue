@@ -1,11 +1,10 @@
 <template>
   <div class="main-container">
-    <div class="useful-link no-print">
-      <!--<a class="theme-link" href="/index2.html"></a>-->
+    <!-- <div class="useful-link no-print">
       <a class="github-button" href="https://github.com/quhongqiang/resume" title="查看源码">
         <img src="../../public/img/star.svg" alt="Github"><span>Star</span>
       </a>
-    </div>
+    </div> -->
     <section class="section section-header">
       <div class="section-bg section-header-bg"></div>
       <div class="section-bg section-content-bg"></div>
@@ -121,7 +120,7 @@
             <h2 class="title">工作经验&nbsp;/&nbsp;
               <small><i>Experience</i></small>
             </h2>
-            <div class="description">不同时期简短的从业经历介绍</div>
+            <div class="description">简短的从业经历介绍</div>
           </div>
         </header>
         <div class="section-content">
