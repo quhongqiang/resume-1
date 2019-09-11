@@ -1,1 +1,59 @@
-<!DOCTYPE html><html><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel="shortcut icon" type=image/x-icon href=favicon.ico><title>曲小强-热爱前端</title><link as=script href=../dist/app.0670f1ba.js rel=preload><link as=style href=../dist/app.66b7a60b.css rel=preload><link as=script href=../dist/chunk-vendors.19593c3c.js rel=preload><link href=../dist/1.9cef51d7.js rel=prefetch><link href=../dist/app.66b7a60b.css rel=stylesheet></head><body><div id=app></div><script src=../dist/chunk-vendors.19593c3c.js></script><script src=../dist/app.0670f1ba.js></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>小程序内嵌webview</title>
+    <style>
+        .btn {
+            font-size: 70px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<h1>我是webview里的h5页面</h1>
+<a id="desc" class="btn" onclick="jumpPay()">点击支付</a>
+
+<script type="text/javascript" src="https://res.wx.qq.com/open/js/jweixin-1.3.2.js"></script>
+<script>
+    console.log(location.href);
+
+    let payOk = getQueryVariable("payOk");
+    console.log("payOk", payOk)
+
+    if(payOk){//支付成功
+        document.getElementById('desc').innerText="支持成功"
+        document.getElementById('desc').style.color="green"
+    }else{
+        document.getElementById('desc').innerText="点击支付"
+    }
+
+    //获取url里携带的参数
+    function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] == variable) {
+                return pair[1];
+            }
+        }
+        return (false);
+    }
+
+    function jumpPay() {
+        let orderId = Date.now();//这里用当前时间戳做订单号（后面使用你自己真实的订单号）
+        let money = 1;//订单总金额（单位分）
+        let payData = {orderId: orderId, money: money};
+
+        let payDataStr = JSON.stringify(payData);//因为要吧参数传递给小程序，所以这里需要转为字符串
+        const url = `../wePay/wePay?payDataStr=${payDataStr}`;
+        wx.miniProgram.navigateTo({
+            url: url
+        });
+        // console.log("点击了去支付", url)
+        console.log("点击了去支付")
+    }
+</script>
+</body>
+</html>
