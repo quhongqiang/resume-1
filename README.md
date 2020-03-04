@@ -7,7 +7,7 @@ clone项目
 
     npm install
 ### 运行
-    npm serve
+    npm run serve || npm start
 ### 编译
     npm build
 访问：http://localhost:8080/

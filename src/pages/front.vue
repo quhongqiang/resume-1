@@ -27,6 +27,7 @@
                 </h2>
               </a>
               <div class="description wow inShow" data-wow-delay="0.15s"><i class="slogan">{{userInfo.slogan}}</i></div>
+              <div class="description wow inShow printing" data-wow-delay="0.1s">(Ctrl+p可以打印本简历)</div>
             </div>
             <div class="contact-info">
               <div class="row">
@@ -51,7 +52,7 @@
                 <div class="col-md-6 col-lg-3 flex">
                   <a class="item wow inShow" data-wow-delay="0.55s">
                     <h4>经验</h4>
-                    <div class="info">3年</div>
+                    <div class="info">4年</div>
                   </a>
                 </div>
               </div>
@@ -190,7 +191,7 @@
             <h2 class="title">项目经验&nbsp;/&nbsp;
               <small><i>Experience</i></small>
             </h2>
-            <div class="description">近期主要做过的一些项目</div>
+            <div class="description"><strong>主要项目展示</strong></div>
           </div>
         </header>
         <div class="section-content">
