@@ -5,7 +5,7 @@
         <img src="../../public/img/star.svg" alt="Github"><span>Star</span>
       </a>
     </div> -->
-    <section class="section section-header">
+    <section class="section section-header"> 
       <div class="section-bg section-header-bg"></div>
       <div class="section-bg section-content-bg"></div>
       <div class="container">
