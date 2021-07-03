@@ -508,3 +508,21 @@ ul{
     left: 0;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .contact-info .item {
+    display: flex;
+    align-items: center;
+  }
+  .contact .item {
+    display: flex;
+    align-items: center;
+  }
+  .contact .item h4 {
+    width: 60px;
+    text-align: right;
+  }
+  .contact .item .info{
+    margin-left: 20px;
+  }
+}
