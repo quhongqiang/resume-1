@@ -52,7 +52,7 @@
                 <div class="col-md-6 col-lg-3 flex">
                   <a class="item wow inShow" data-wow-delay="0.55s">
                     <h4>经验</h4>
-                    <div class="info">4年</div>
+                    <div class="info">5年</div>
                   </a>
                 </div>
               </div>

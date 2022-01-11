@@ -22,7 +22,7 @@
     "content":[
       "5年+的一线城市前端研发经验。了解主流框架的一些特性。",
       "有个人网站。熟悉前端项目构建，有过基于 react 和 vue 的产品开发经验，以及微信小程序和微信公众号开发经验。",
-      "了解 H5 和客户端交互，并能合理的解决 H5 在 Native 上存在的兼容问题。",
+      "了解 H5 和客户端交互，并能配合客户端解决遇到的的兼容问题。",
       "喜欢看一些开源的项目，倒腾一些小功能,对后端有着浓厚的兴趣 web应用开发经验。有着浓厚的对产品设计的兴趣和对良好用户体验的精益求精精神。"
     ],
     "technology":{
@@ -58,7 +58,7 @@
         {
           "title":"技术栈：",
           "content":[
-            "react","vue","less","webpack","bootstrap","taro","uni-app","node"
+            "react","vue","less","webpack","bootstrap","taro","uni-app"
           ]
         }
       ]
@@ -187,7 +187,7 @@
         {
           "title":"技术栈：",
           "content":[
-            "Vue","lodash", "sass", "vuex", "uni-app","webpack"
+            "Vue","sass", "vuex", "uni-app","webpack"
           ]
         }
       ]
