@@ -255,7 +255,7 @@
         </div>
       </div>
     </section>
-    <section class="section no-print">
+    <section class="section">
       <div class="container">
         <div class="section-bg section-header-bg"></div>
         <div class="section-bg section-content-bg"></div>
